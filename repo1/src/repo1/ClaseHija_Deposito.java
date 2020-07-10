@@ -23,7 +23,7 @@ public class ClaseHija_Deposito extends ClasePadre_Abstracta {
         System.out.println("Tu nuevo saldo en: " + getSaldo());
         System.out.println("------------------------------------");
         }  catch (Exception e ){
-                System.out.println("su transacción no puede ser procesada!!!!!  "+ e);
+                System.out.println("su operacion  no puede ser procesada en este momento !!!!!  "+ e);
                 }finally{
             System.out.println("Su operacion se a realizado  exitosamente !!");
        
