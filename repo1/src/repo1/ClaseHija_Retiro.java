@@ -15,17 +15,28 @@ public class ClaseHija_Retiro extends ClasePadre_Abstracta {
         
         System.out.println("Cuanto deseas retirar del cajero?" );
         Retiro();
+        try {
+            
+      
         if(retiro <= getSaldo()){
+
             transacciones = getSaldo();
             setSaldo(transacciones - retiro);
             System.out.println("------------------------------------");
             System.out.println("Has Retirado de tu cuenta:" + retiro);
             System.out.println("Tu nuevo saldo actual es: " + getSaldo());
             System.out.println("------------------------------------");
+           
+            
         } else {
             System.out.println("------------------------------------");
             System.out.println("Fondos insuficientes!");
             System.out.println("------------------------------------");
+        }
+          } catch (Exception e) {
+              System.out.println("Su transacion no puede ser procesada "+ e); }finally{
+            System.out.println("operacion exitosa !!");
+        
         }
         
         
