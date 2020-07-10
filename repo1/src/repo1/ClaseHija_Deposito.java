@@ -7,7 +7,7 @@ package repo1;
 
 /**
  *
- * @author fvp
+ * @author william murillo 
  */
 public class ClaseHija_Deposito extends ClasePadre_Abstracta {
     

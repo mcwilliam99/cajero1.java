@@ -7,7 +7,7 @@ package repo1;
 import java.util.Scanner;
 /**
  *
- * @author fvp
+ * @author william murillo 
  */
 public abstract class ClasePadre_Abstracta {
     protected int transacciones, retiro, deposito;
