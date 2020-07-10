@@ -25,7 +25,7 @@ public class ClaseHija_Deposito extends ClasePadre_Abstracta {
         }  catch (Exception e ){
                 System.out.println("su transacción no puede ser procesada!!!!!  "+ e);
                 }finally{
-            System.out.println("operacion exitosa!!");
+            System.out.println("Su operacion se a realizado  exitosamente !!");
        
 }
            
